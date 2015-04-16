@@ -19,5 +19,9 @@ the Script requires that:
 
 *The extracted data is within a directory named "UCI HAR Dataset" located in the working directory
 
+###The Tidy Dataset
+The file tidydata.txt contains a tidied summary of the data, with the mean of each variable sorted by activity and subject.
+It can be read back into R by downloading to the working directory and using: read.table("~/tidydata.txt", stringsAsFactors=FALSE)
+
 ### The Codebook
 The Codebook explains how the data was tranformed and provides a guide to the variables.
