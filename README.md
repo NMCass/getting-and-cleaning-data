@@ -14,7 +14,9 @@ The observations are in the x_test.txt and x_train.txt files, activity labels ar
 The script called run_analysis.R merges the training and test sets together before adding labels to the columns.
 It then cleans and sorts these into one dataframe containing the mean and standard deviations variables, then sorts these into a further dataframe sorted by subject and activity.
 the Script requires that:
+
 *The UCI HAR dataset be downloaded and extracted
+
 *The extracted data is within a directory named "UCI HAR Dataset" located in the working directory
 
 ### The Codebook
